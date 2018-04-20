@@ -2606,6 +2606,13 @@
 		border-top-color: rgba(144, 144, 144, 0.25);
 	}
 
+	.center {
+    		display: block;
+   		margin-left: auto;
+    		margin-right: auto;
+    		width: 50%;
+	}
+
 /* Section/Article */
 
 	section.special, article.special {
