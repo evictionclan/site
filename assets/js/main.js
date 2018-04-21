@@ -1,5 +1,5 @@
 /*
-	Caminar by TEMPLATED
+	Caminar by TEMPLATED x Orez
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
@@ -41,5 +41,11 @@
 			$('.gallery').poptrox();
 
 	});
+	
+			$('.txt').html(function(i, html) {
+                          var chars = $.trim(html).split("");
+
+                          return '<span>' + chars.join('</span><span>') + '</span>';
+        });
 
 })(jQuery);
